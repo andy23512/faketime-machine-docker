@@ -1,7 +1,7 @@
 version: '3'
 services:
   faketime-machine:
-    build: ./
+    image: andy23512/faketime-machine
     environment:
       FAKETIME: -15d
     command: tail -f /dev/null
